@@ -2,13 +2,13 @@ import java.util.Scanner;
 
 public class ArithmeticOperators1 {
 	public static void main(String[] args) {
-		Scanner sc = new Scanner(System.in);
+		
 
 		System.out.print("Enter the first number: ");
-		double num1 = sc.nextDouble();
+		double num1 = Integer.parseInt(args[0]);
 
 		System.out.print("Enter the second number: ");
-		double num2 = sc.nextDouble();
+		double num2 = Integer.parseInt(args[1]);
 
 		double sum = num1 + num2;
 		double difference = num1 - num2;
